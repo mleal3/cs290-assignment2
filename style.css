@@ -1,0 +1,45 @@
+/*Sources used include: 
+http://www.w3schools.com/tags/
+http://www.w3schools.com/tags/ref_colorpicker.asp
+http://stackoverflow.com/questions/4309950/how-to-align-input-forms-in-html
+http://www.engadget.com/2011/06/28/wow-archivist-the-legacy-of-leeroy-jenkins/;
+*/
+
+table, th, td { border: 1px solid black;}  /*sets up the 6x6 border for table*/
+
+th {text-align: center;}   /*Centers the head row*/
+
+tbody th:nth-child(1){font-style: italic;text-align: center;  /*1st column header cells*/
+					font-weight: normal;}
+
+
+
+tbody td:nth-child(2){color: red;}   /*1st non-header cell*/
+tbody td:nth-child(4){color: blue;}  /*3rd non-header cell*/
+
+tbody tr:nth-child(odd){background-color: #99FF99;}  /*Odd non-header cell*/
+tbody tr:nth-child(even){background-color: #99CCFF;} /*Even non-header cell*/
+
+dt:hover + dd{background-color: purple;} /*Hover requirement for dl list*/
+
+div.outer-content{width: 75%;background-color: pink; /*div outer*/
+					margin-top: 20px;}
+
+div.inner-content{width: 75%;background-color: #99CCFF; /*div inner*/
+					margin: auto;text-align: center;}
+
+
+
+form dl{width: 620px; border-radius: 1px; padding: 0.5em; /*form layout*/
+		border: 1px solid black;}
+
+form dt{width: 600px; border-radius: 1px; padding: 0.5em; /*form layout*/
+		border: 1px solid black;}
+
+img{float: left;} /*Secure image in upper left, wrap around text*/
+
+
+
+
+
+
